@@ -1,4 +1,5 @@
 # lingxi-head-assets
+<<<<<<< HEAD
 
 > extract resource references (js,css) from the head tag embed them inline
 
@@ -87,3 +88,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 _(Nothing yet)_
+=======
+把head标签里面的资源引用内容提取出来，然后以内联方式嵌入
+>>>>>>> 9a7728675ffc6c876122e0673d433cdf9e17f394

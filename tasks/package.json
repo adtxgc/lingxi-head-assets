@@ -1,0 +1,14 @@
+{
+  "name": "lingxi_head_assets",
+  "version": "1.0.0",
+  "description": "extract resource references (js,css) from the head tag embed them inline",
+  "main": "lingxi_head_assets.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xwliu",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}

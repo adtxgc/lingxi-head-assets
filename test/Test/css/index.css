@@ -1,0 +1,18 @@
+body{
+  background: #99CCCC;
+}
+div{
+  width: 100%;
+  margin-bottom: 0.4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  background: #eee;
+}
+.line1{
+  color: #009999;
+}
+.line2{
+ color:#00FF99;
+}

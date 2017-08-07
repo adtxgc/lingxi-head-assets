@@ -13,6 +13,12 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     copy: {
+      img: {
+        expand: true,
+        cwd: 'test/Test/images/',
+        src: '**',
+        dest: 'test/target/images/'
+      },
       css: {
         expand: true,
         cwd: 'test/Test/css/',

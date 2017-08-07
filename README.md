@@ -5,6 +5,8 @@
 
 ### Usage Examples
 
+由于没有发布到npm上，所以使用时可以当成本地插件引入
+
 ```js
 grunt.initConfig({
   lingxi_head_assets: {

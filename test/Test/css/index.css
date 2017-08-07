@@ -16,3 +16,9 @@ div{
 .line2{
  color:#00FF99;
 }
+
+.bk{
+  height: 4rem;
+  width: 100%;
+  background: url("../images/test.png");
+}

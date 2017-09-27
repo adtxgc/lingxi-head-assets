@@ -17,7 +17,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
   const cssImgPattern =
-    /url\(("|')?\.{0,2}(\/?(\w+|\w-\w))*(\.png)|(\.jpeg)("|')?\)/gi;
+    /url\(("|')(\.{1,2}\/)?images\/(\w+|\w-\w)+\.(png|jpeg|jpg)\s*("|')\)/gi;
   let cssMap = {}; //对image路径转换之后的CSS文件进行缓存
 
   grunt.registerMultiTask('lingxi_head_assets',
